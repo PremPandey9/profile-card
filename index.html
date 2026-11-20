@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile Card</title>
+  <style>
+      
+    body {
+      margin: 0;
+      font-family: system-ui, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f4f4f4;
+    }
+
+    main {
+      max-width: 360px;
+      width: 90%;
+      background-color: white;
+      padding: 30px;
+      border: 1px solid #dddddd;
+      border-radius: 16px;
+      text-align: center;
+      box-sizing: border-box;
+    }
+
+    main img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    main h1 {
+      margin: 10px 0;
+      font-size: 24px;
+      color: #222222;
+    }
+
+    main p:first-of-type {
+      color: #666666;
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+    main p:last-of-type {
+      color: #555555;
+      font-size: 14px;
+      line-height: 1.6;
+      margin-bottom: 25px;
+    }
+
+    main a {
+      display: inline-block;
+      text-decoration: none;
+      padding: 10px 20px;
+      margin: 5px;
+      border-radius: 8px;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+
+    main a:first-of-type {
+      background-color: #2563eb;
+      color: white;
+    }
+
+    main a:first-of-type:hover {
+      background-color: #1d4ed8;
+    }
+
+    main a:last-of-type {
+    border: 1px solid #2563eb;
+      color: #2563eb;
+      background-color: transparent;
+    }
+
+    main a:last-of-type:hover {
+      background-color: #2563eb;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Build your card inside <main>. Replace the text below with your own. -->
+  <main>
+  <img src="https://github.com/PremPandey9.png" alt="Prem Pandey" />
+
+  <h1>Prem Pandey</h1>
+
+  <p>Front End Developer & CSE Student</p>
+
+  <p>
+    I enjoy building clean web interfaces and learning modern frontend development.
+  </p>
+
+  <a href="mailto:prem9304p@gmail.com">Contact</a>
+
+  <a href="https://github.com/PremPandey9" target="_blank">GitHub</a>
+</main>
+
+</body>
+</html>
